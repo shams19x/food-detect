@@ -20,7 +20,7 @@ parser.add_argument('--thresh', help='Minimum confidence threshold for displayin
                     default=0.5)
 parser.add_argument('--resolution', help='Resolution in WxH to display inference results at (example: "640x480"), \
                     otherwise, match source resolution',
-                    default="1280x720")
+                    default=None)
 parser.add_argument('--record', help='Record results from video or webcam and save it as "demo1.avi". Must specify --resolution argument to record.',
                     action='store_true')
 
